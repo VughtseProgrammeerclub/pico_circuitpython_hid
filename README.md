@@ -4,6 +4,11 @@ CircuitPython program for the raspberry pi pico to emulate a keyboard
 ## One time setup
 Install MicroPython on your raspberry pi pico: https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython
 
+## Wiring it up
+* Connect three buttons to the `GND`.
+* Connect the other sides of the buttons to GP0, GP1 and GP2.
+* The program pulls the GPIO pins high. Pressing a button pulls them down to ground, which we check for in the program.
+
 ## Uploading the program
 
 * Plug in your raspberry pi pico
