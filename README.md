@@ -8,6 +8,7 @@ Install MicroPython on your raspberry pi pico: https://learn.adafruit.com/gettin
 * Connect three buttons to the `GND`.
 * Connect the other sides of the buttons to GP0, GP1 and GP2.
 * The program pulls the GPIO pins high. Pressing a button pulls them down to ground, which we check for in the program.
+* GP0 (yellow) is left, GP1 (red) is spacebar, GP2 (blue) is right
 
 ## Uploading the program
 
